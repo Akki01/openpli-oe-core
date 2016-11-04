@@ -16,6 +16,7 @@ DEPENDS = " \
 	python-imaging python-twisted python-wifi \
 	swig-native \
 	tuxtxt-enigma2 \
+	uchardet \
 	"
 
 RDEPENDS_${PN} = " \
@@ -23,6 +24,7 @@ RDEPENDS_${PN} = " \
 	enigma2-fonts \
 	ethtool \
 	glibc-gconv-iso8859-15 \
+	uchardet \
 	${PYTHON_RDEPS} \
 	"
 
